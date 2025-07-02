@@ -16,24 +16,32 @@ export const Hero = () => {
             src="/homepage/feat1.svg"
             alt="Built for Connection"
             title="Built for Connection"
+            description="Midas doesn’t just reach audiences—it resonates. Our platform empowers your business to transform ideas into campaigns that spark interest, drive action, and build lasting loyalty with the customers who matter most."
+            index={0}
           />
 
           <FeatureCard
             src="/homepage/feat2.svg"
             alt="Engineered for Growth"
             title="Engineered for Growth"
+            description="Reach customers on the platforms that drive impact—from social feeds to emerging channels—unlocking access to 3 billion daily active users. Midas accelerates growth by making sophisticated advertising simple, so you can scale faster with less effort."
+            index={1}
           />
 
           <FeatureCard
             src="/homepage/feat3.svg"
             alt="Designed for Versatility"
             title="Designed for Versatility"
+            description="Whether you’re launching a single product or managing campaigns across markets, Midas adapts to your goals. Harness our intelligent toolkit to run multi-channel campaigns that flex and evolve as your business grows."
+            index={2}
           />
 
           <FeatureCard
             src="/homepage/feat4.svg"
             alt="Crafted for Excellence"
             title="Crafted for Excellence"
+            description="Powered by $5 billion in campaign expertise, Midas uses advanced machine learning to optimize every bid, budget, and creative in real time. The result: a self-improving engine that maximizes ROI and keeps your business ahead."
+            index={3}
           />
         </div>
       </div>
@@ -57,14 +65,58 @@ interface FeatureCardProps {
   src: string;
   alt: string;
   title: string;
+  description: string;
+  index: number;
 }
 
-const FeatureCard = ({ src, alt, title }: FeatureCardProps) => {
+const FeatureCard = ({
+  src,
+  alt,
+  title,
+  description,
+  index,
+}: FeatureCardProps) => {
+  const expandDirection = index < 2 ? "down" : "up";
+
   return (
-    <div className="bg-black/[0.03] backdrop-blur-sm rounded-[30px] px-[35px] py-[30px] border border-gray-200">
-      <div className="flex items-center space-x-[20px]">
-        <FeatIcon src={src} alt={alt} />
-        <span className="font-medium text-gray-700">{title}</span>
+    <div className="relative group">
+      {/* 主卡片 */}
+      <div className="bg-black/[0.03] backdrop-blur-sm rounded-[30px] px-[35px] py-[30px] border border-gray-200 transition-all duration-300 group-hover:bg-black/[0.08] group-hover:border-gray-300 relative z-10">
+        <div className="flex items-center space-x-[20px]">
+          <FeatIcon src={src} alt={alt} />
+          <span className="font-medium text-gray-700">{title}</span>
+        </div>
+      </div>
+
+      {/* 展开的描述区域 */}
+      <div
+        className={`
+            px-[35px] py-[30px]
+          absolute left-0 right-0 bg-white/95 backdrop-blur-sm rounded-[30px] border border-gray-200 shadow-xl
+          opacity-0 group-hover:opacity-100 transition-all duration-300 ease-out pointer-events-none group-hover:pointer-events-auto
+          ${
+            expandDirection === "down"
+              ? "top-0 transform translate-y-[-20px] group-hover:translate-y-0"
+              : "bottom-0 transform translate-y-[20px] group-hover:translate-y-0"
+          }
+        `}
+        style={{
+          height: "280px", // 2个FeatureCard的高度
+          zIndex: 50,
+        }}
+      >
+        {/* 重复主卡片内容 */}
+        <div className="">
+          <div className="flex items-center space-x-[20px]">
+            <FeatIcon src={src} alt={alt} />
+            <span className="font-medium text-gray-700">{title}</span>
+          </div>
+        </div>
+
+        {/* 描述内容 */}
+        <div className="flex-1 flex items-center mt-[25px]">
+          <p className="text-gray-600 leading-relaxed text-sm">{description}</p>
+        </div>
       </div>
     </div>
   );
