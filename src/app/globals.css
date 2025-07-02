@@ -19,6 +19,27 @@
   }
 }
 
+/* Custom styles for smooth scrolling and animations */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom backdrop blur for older browsers */
+.backdrop-blur-custom {
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+
+/* Smooth transitions for interactive elements */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom gradient for hero section */
+.gradient-bg {
+  background: linear-gradient(135deg, #f5f5f7 0%, #ffffff 100%);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

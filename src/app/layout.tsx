@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Midas | Your ultimate strategic ads autopilot",
   description: "Midas fuses over $5 Billion in campaign expertise with the most advanced algorithms, empowering worldwide advertisers to effortlessly build enterprise-grade campaigns.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
