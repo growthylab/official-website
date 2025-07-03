@@ -1,3 +1,6 @@
+"use client";
+
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export const Hero = () => {
@@ -122,6 +125,23 @@ const FeatureCard = ({
   );
 };
 
+export const GetStartedButton = () => {
+  const handleClick = () => {
+    window.open("https://admin.growthylab.ai/signup", "_blank");
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      className="bg-black text-white px-8 py-4 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition-colors group"
+    >
+      <span className="text-lg font-medium">Get Started</span>
+      <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+    </button>
+  );
+};
+
 const HeroTitle = () => {
   return (
     <section className="space-y-8 flex-1">
@@ -134,26 +154,7 @@ const HeroTitle = () => {
         Into Pure Gold.
       </p>
 
-      <button
-        type="button"
-        className="bg-black text-white px-8 py-4 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition-colors group"
-      >
-        <span className="text-lg font-medium">Get Started</span>
-        <svg
-          className="w-5 h-5 group-hover:translate-x-1 transition-transform"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <title>Arrow Right</title>
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          />
-        </svg>
-      </button>
+      <GetStartedButton />
     </section>
   );
 };

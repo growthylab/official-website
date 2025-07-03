@@ -1,11 +1,18 @@
+import Image from "next/image";
 export const Footer = () => {
   return (
     <footer className="bg-white/50 border-t border-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-custom mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="text-2xl font-semibold text-black mb-4">
-              <img src="title.svg" alt="MIDAS" className="h-8 w-16 mr-2" />
+              <Image
+                src="title.svg"
+                alt="MIDAS"
+                className="mr-2"
+                width={64}
+                height={32}
+              />
             </div>
             <p className="text-gray-600 max-w-md">
               Midas, inspired by the Greek myth of "The Midas Touch," is a
@@ -33,7 +40,7 @@ export const Footer = () => {
             </div> */}
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-200 text-center text-gray-500">
+        <div className="mt-12 pt-8 text-right text-gray-500 text-sm font-inter font-normal leading-[1.6]">
           <p>Copyright © 2025 MIDAS</p>
         </div>
       </div>
