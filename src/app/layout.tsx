@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Midas | Your ultimate strategic ads autopilot",
-  description: "Midas fuses over $5 Billion in campaign expertise with the most advanced algorithms, empowering worldwide advertisers to effortlessly build enterprise-grade campaigns.",
+  description:
+    "Midas fuses over $5 Billion in campaign expertise with the most advanced algorithms, empowering worldwide advertisers to effortlessly build enterprise-grade campaigns.",
   icons: {
     icon: "/favicon.svg",
   },
@@ -27,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${outfit.variable} ${inter.variable} antialiased`}>
         {children}
       </body>
     </html>

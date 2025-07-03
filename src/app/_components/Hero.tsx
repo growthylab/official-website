@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="max-w-custom mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <section className="max-w-custom mx-auto py-16 lg:py-25">
       <div className="flex flex-col lg:flex-row gap-12 items-center">
         {/* Left Content */}
         <div className="flex-1 flex flex-col justify-between min-h-[585px]">
@@ -14,7 +14,7 @@ export const Hero = () => {
         </div>
 
         {/* Right Content - Feature Cards */}
-        <div className="lg:w-[400px] space-y-6">
+        <div className="lg:w-[400px] space-y-[30px] py-4">
           <FeatureCard
             src="/homepage/feat1.svg"
             alt="Built for Connection"
@@ -59,7 +59,7 @@ interface FeatIconProps {
 const FeatIcon = ({ src, alt }: FeatIconProps) => {
   return (
     <div className="w-[60px] h-[60px] rounded-full flex items-center justify-center">
-      <Image src={src} alt={alt} width={40} height={40} />
+      <Image src={src} alt={alt} width={60} height={60} />
     </div>
   );
 };
@@ -81,13 +81,29 @@ const FeatureCard = ({
 }: FeatureCardProps) => {
   const expandDirection = index < 2 ? "down" : "up";
 
+  // 处理标题，将最后一个单词加粗
+  const renderTitle = (titleText: string) => {
+    const words = titleText.split(" ");
+    const lastWord = words.pop();
+    const restWords = words.join(" ");
+
+    return (
+      <>
+        {restWords && <span>{restWords} </span>}
+        <span className="font-semibold">{lastWord}</span>
+      </>
+    );
+  };
+
   return (
     <div className="relative group">
       {/* 主卡片 */}
-      <div className="bg-black/[0.03] backdrop-blur-sm rounded-[30px] px-[35px] py-[30px] border border-gray-200 transition-all duration-300 group-hover:bg-black/[0.08] group-hover:border-gray-300 relative z-10">
+      <div className="bg-black/[0.03] rounded-[30px] px-[35px] py-[30px] relative z-10 shadow-[0px_1px_2px_0px_rgba(24,24,27,0.10),0px_0px_1px_0px_rgba(24,24,27,0.20)]">
         <div className="flex items-center space-x-[20px]">
           <FeatIcon src={src} alt={alt} />
-          <span className="font-medium text-gray-700">{title}</span>
+          <span className="font-normal text-lg text-gray-700">
+            {renderTitle(title)}
+          </span>
         </div>
       </div>
 
@@ -104,7 +120,7 @@ const FeatureCard = ({
           }
         `}
         style={{
-          height: "280px", // 2个FeatureCard的高度
+          height: "420px", // 2个FeatureCard的高度
           zIndex: 50,
         }}
       >
@@ -112,13 +128,17 @@ const FeatureCard = ({
         <div className="">
           <div className="flex items-center space-x-[20px]">
             <FeatIcon src={src} alt={alt} />
-            <span className="font-medium text-gray-700">{title}</span>
+            <span className="font-normal text-lg text-gray-700">
+              {renderTitle(title)}
+            </span>
           </div>
         </div>
 
         {/* 描述内容 */}
         <div className="flex-1 flex items-center mt-[25px]">
-          <p className="text-gray-600 leading-relaxed text-sm">{description}</p>
+          <p className="text-gray-700 text-lg font-normal leading-[30px] tracking-[0.72px]">
+            {description}
+          </p>
         </div>
       </div>
     </div>
@@ -134,7 +154,7 @@ export const GetStartedButton = () => {
     <button
       type="button"
       onClick={handleClick}
-      className="bg-black text-white px-8 py-4 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition-colors group"
+      className="bg-black text-white px-8 py-[18px] rounded-full flex items-center space-x-2 hover:bg-gray-800 transition-colors group"
     >
       <span className="text-lg font-medium">Get Started</span>
       <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -144,14 +164,14 @@ export const GetStartedButton = () => {
 
 const HeroTitle = () => {
   return (
-    <section className="space-y-8 flex-1">
+    <section className="space-y-8 flex-1 font-outfit">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-900 leading-tight">
         Feel The <span className="text-blue-500">Midas</span> Touch.
       </h1>
 
       <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl">
-        Your ultimate strategic Ads Autopilot, Engineered To Turn Every Campaign
-        Into Pure Gold.
+        Your ultimate strategic ads autopilot, engineered to turn every campaign
+        into pure gold.
       </p>
 
       <GetStartedButton />
@@ -162,7 +182,7 @@ const HeroTitle = () => {
 const TrustedBy = () => {
   return (
     <section>
-      <p className="text-gray-500 font-inter text-base font-medium leading-[30px] tracking-[0.8px] mb-8">
+      <p className="text-[#A1A1AA] font-inter text-base leading-[30px] tracking-[0.8px] mb-8">
         Trusted by
       </p>
       <div className="overflow-hidden max-w-[656px]">
@@ -176,6 +196,7 @@ const TrustedBy = () => {
               <Image
                 src="/homepage/trust.svg"
                 fill
+                color="#00000066"
                 alt={`Trusted by ${i}`}
                 className="object-contain"
               />

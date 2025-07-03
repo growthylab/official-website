@@ -14,7 +14,7 @@ export const Footer = () => {
                 height={32}
               />
             </div>
-            <p className="text-gray-600 max-w-md">
+            <p className="text-gray-600 max-w-[574px]">
               Midas, inspired by the Greek myth of "The Midas Touch," is a
               strategic ads autopilot to turn every campaign into pure gold.
             </p>
