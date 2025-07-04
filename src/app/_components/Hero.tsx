@@ -58,7 +58,7 @@ interface FeatIconProps {
 }
 const FeatIcon = ({ src, alt }: FeatIconProps) => {
   return (
-    <div className="w-[60px] h-[60px] rounded-full flex items-center justify-center">
+    <div className="w-[60px] h-[60px] rounded-full flex items-center justify-center -ml-[10px]">
       <Image src={src} alt={alt} width={60} height={60} />
     </div>
   );
@@ -111,7 +111,7 @@ const FeatureCard = ({
       <div
         className={`
             px-[35px] py-[30px]
-          absolute left-0 right-0 bg-white/95 backdrop-blur-sm rounded-[30px] border border-gray-200 shadow-xl
+          absolute left-0 right-0 bg-white/95 backdrop-blur-sm rounded-[30px] shadow-xl
           opacity-0 group-hover:opacity-100 transition-all duration-300 ease-out pointer-events-none group-hover:pointer-events-auto
           ${
             expandDirection === "down"
@@ -164,12 +164,12 @@ export const GetStartedButton = () => {
 
 const HeroTitle = () => {
   return (
-    <section className="space-y-8 flex-1 font-outfit">
-      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-900 leading-tight">
+    <section className="space-y-[20px] flex-1 font-outfit">
+      <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-semibold text-gray-900 leading-[90px]">
         Feel The <span className="text-blue-500">Midas</span> Touch.
       </h1>
 
-      <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl">
+      <p className="text-[24px] text-gray-600 leading-[44px] max-w-2xl mb-[70px] font-light">
         Your ultimate strategic ads autopilot, engineered to turn every campaign
         into pure gold.
       </p>
@@ -182,7 +182,7 @@ const HeroTitle = () => {
 const TrustedBy = () => {
   return (
     <section>
-      <p className="text-[#A1A1AA] font-inter text-base leading-[30px] tracking-[0.8px] mb-8">
+      <p className="text-[#A1A1AA] font-inter text-base leading-[30px] tracking-[0.8px] mb-[20px]">
         Trusted by
       </p>
       <div className="overflow-hidden max-w-[656px]">
