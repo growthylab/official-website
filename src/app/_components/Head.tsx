@@ -1,20 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const handleLoginClick = () => {
     window.open("https://admin.growthylab.ai/login", "_blank");
   };
@@ -26,15 +14,11 @@ export const Header = () => {
   return (
     <header
       className={`
-        sticky top-0 z-50 transition-all duration-300 shadow-[0_0_6px_0_rgba(0,0,0,0.15)]
-        ${
-          isScrolled
-            ? "bg-[rgba(246,246,246,0.36)] backdrop-blur-[68px] [mix-blend-mode:luminosity]"
-            : "bg-white"
-        }
+        fixed w-full top-0 z-50 transition-all duration-300 shadow-[0_0_6px_0_rgba(0,0,0,0.15)] 
+        bg-[rgba(245, 245, 247, 0.8)] backdrop-saturate-[1.8] backdrop-blur-[20px]
       `}
     >
-      <div className="max-w-custom mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-custom mx-auto">
         <div className="flex justify-between items-center h-[100px]">
           {/* Logo */}
           <div className="flex items-center">

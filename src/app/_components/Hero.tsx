@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="max-w-custom mx-auto py-16 lg:py-25">
+    <section className="max-w-custom mx-auto py-16 lg:py-25 mt-[100px]">
       <div className="flex flex-col lg:flex-row gap-12 items-center">
         {/* Left Content */}
         <div className="flex-1 flex flex-col justify-between min-h-[585px]">
