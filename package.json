@@ -13,7 +13,9 @@
     "lint:biome": "biome lint .",
     "lint:biome:fix": "biome lint --write .",
     "check": "biome check .",
-    "check:fix": "biome check --write ."
+    "check:fix": "biome check --write .",
+    "netlify:init": "netlify init",
+    "netlify:deploy": "netlify deploy --site=1253d598-b140-423e-91cf-5fefec013951 --prod"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -29,6 +31,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "netlify-cli": "^22.2.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

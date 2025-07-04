@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
+  other: {
+    buildtime: new Date().toISOString(),
+  },
 };
 
 export default function RootLayout({
