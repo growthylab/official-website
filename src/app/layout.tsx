@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   other: {
-    buildtime: new Date().toISOString(),
+    buildtime: process.env.BUILD_TIME || new Date().toISOString(),
   },
 };
 

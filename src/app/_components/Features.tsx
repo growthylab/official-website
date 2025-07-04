@@ -4,7 +4,7 @@ export const Features = () => {
   return (
     <section className="mx-auto sm:px-6 py-24 bg-[#FAFAFB] lg:px-[120px]">
       <div className="text-left mb-16 max-w-5xl font-outfit">
-        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-900 mb-6">
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#111111] mb-6">
           Smarter <span className="text-blue-500">Advertising</span>, Made
           Simple.
         </h2>
