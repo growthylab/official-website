@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
+import { Footer } from "./_components/Footer";
+import { Header } from "./_components/Head";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -32,7 +34,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${outfit.variable} ${inter.variable} antialiased`}>
-        {children}
+        <div className="min-h-screen bg-[#f5f5f7] mt-[100px]">
+          {/* Header */}
+          <Header />
+
+          {/* Main Content */}
+          <main>{children}</main>
+
+          {/* Footer */}
+          <Footer />
+        </div>
       </body>
     </html>
   );

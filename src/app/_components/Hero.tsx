@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="md:max-w-custom mx-4 md:mx-auto py-16 lg:py-25 mt-[100px]">
+    <section className="md:max-w-custom mx-4 xl:mx-auto py-16 lg:py-25">
       <div className="flex flex-col xl:flex-row xl:gap-12 items-center">
         {/* Left Content */}
         <div className="flex-1 flex flex-col justify-between xl:min-h-[585px]">
@@ -14,7 +14,7 @@ export const Hero = () => {
         </div>
 
         {/* Right Content - Feature Cards */}
-        <div className="space-y-[30px] py-4 flex flex-col items-start w-full">
+        <div className="space-y-[30px] py-4 flex flex-col items-start md:items-center xl:items-end w-full">
           <FeatureCard
             src="/homepage/feat1.svg"
             alt="Built for Connection"

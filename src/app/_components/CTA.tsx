@@ -2,7 +2,7 @@ import { GetStartedButton } from "./Hero";
 
 export const CTA = () => {
   return (
-    <section className="md:max-w-custom mx-4 md:mx-auto py-24">
+    <section className="md:max-w-custom mx-4 xl:mx-auto py-24">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-8">
         {/* left */}
         <div className="flex-1 font-outfit">

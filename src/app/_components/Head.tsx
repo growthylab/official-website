@@ -18,7 +18,7 @@ export const Header = () => {
         bg-[rgba(245, 245, 247, 0.8)] backdrop-saturate-[1.8] backdrop-blur-[20px]
       `}
     >
-      <div className="md:max-w-custom mx-4 md:mx-auto">
+      <div className="md:max-w-custom mx-4 xl:mx-auto">
         <div className="flex justify-between items-center h-[100px]">
           {/* Logo */}
           <div className="flex items-center">

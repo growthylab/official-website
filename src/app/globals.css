@@ -12,7 +12,7 @@
   --font-inter: var(--font-inter);
   --font-outfit: var(--font-outfit);
 
-  --max-width-custom: calc(100vw - 240px);
+  --max-width-custom: 1280px;
 
   /* Colors */
   --color-gray-600: #52525B;
