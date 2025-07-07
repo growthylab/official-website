@@ -2,14 +2,14 @@ import { GetStartedButton } from "./Hero";
 
 export const CTA = () => {
   return (
-    <section className="max-w-custom mx-auto py-24">
+    <section className="md:max-w-custom mx-4 md:mx-auto py-24">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-8">
         {/* left */}
         <div className="flex-1 font-outfit">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#111111] mb-6 leading-[1.4] tracking-[0.02em] font-outfit">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#111111] mb-6 leading-[1.4] tracking-[0.02em] font-outfit maintitle">
             Try <span className="text-blue-500">Midas</span> Now.
           </h2>
-          <p className="text-2xl text-[#3F3F46] max-w-2xl">
+          <p className="subtitle max-w-2xl">
             Your next golden campaign is one touch away.
           </p>
         </div>

@@ -1,7 +1,7 @@
-import { Header } from "@/app/_components/Head";
 import { CTA } from "./_components/CTA";
 import { Features } from "./_components/Features";
 import { Footer } from "./_components/Footer";
+import { Header } from "./_components/Head";
 import { Hero } from "./_components/Hero";
 
 export default function Home() {

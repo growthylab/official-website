@@ -72,3 +72,11 @@ body {
 .animate-scroll-left:hover {
   animation-play-state: paused;
 }
+
+.subtitle {
+  @apply text-[24px] leading-[44px] font-light text-[#3F3F46] tracking-[0.96px];
+}
+
+.maintitle {
+  letter-spacing: 1.28px;
+}

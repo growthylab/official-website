@@ -5,16 +5,16 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="max-w-custom mx-auto py-16 lg:py-25 mt-[100px]">
-      <div className="flex flex-col lg:flex-row gap-12 items-center">
+    <section className="md:max-w-custom mx-4 md:mx-auto py-16 lg:py-25 mt-[100px]">
+      <div className="flex flex-col xl:flex-row xl:gap-12 items-center">
         {/* Left Content */}
-        <div className="flex-1 flex flex-col justify-between min-h-[585px]">
+        <div className="flex-1 flex flex-col justify-between xl:min-h-[585px]">
           <HeroTitle />
           <TrustedBy />
         </div>
 
         {/* Right Content - Feature Cards */}
-        <div className="lg:w-[400px] space-y-[30px] py-4">
+        <div className="space-y-[30px] py-4 flex flex-col items-start w-full">
           <FeatureCard
             src="/homepage/feat1.svg"
             alt="Built for Connection"
@@ -96,7 +96,7 @@ const FeatureCard = ({
   };
 
   return (
-    <div className="relative group">
+    <div className="relative group w-[400px]">
       {/* 主卡片 */}
       <div className="bg-black/[0.03] rounded-[30px] px-[35px] py-[30px] relative z-10 shadow-[0px_1px_2px_0px_rgba(24,24,27,0.10),0px_0px_1px_0px_rgba(24,24,27,0.20)]">
         <div className="flex items-center space-x-[20px]">
@@ -165,11 +165,11 @@ export const GetStartedButton = () => {
 const HeroTitle = () => {
   return (
     <section className="space-y-[20px] flex-1 font-outfit">
-      <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-semibold text-gray-900 leading-[90px]">
+      <h1 className="text-4xl sm:text-5xl lg:text-[64px] font-semibold text-gray-900 maintitle leading-[90px]">
         Feel The <span className="text-blue-500">Midas</span> Touch.
       </h1>
 
-      <p className="text-[24px] text-gray-600 leading-[44px] max-w-2xl mb-[70px] font-light">
+      <p className="subtitle max-w-2xl mb-[70px]">
         Your ultimate strategic ads autopilot, engineered to turn every campaign
         into pure gold.
       </p>
@@ -179,13 +179,13 @@ const HeroTitle = () => {
   );
 };
 
-const TrustedBy = () => {
+export const TrustedBy = () => {
   return (
-    <section>
+    <section className="my-6 xl:my-0">
       <p className="text-[#A1A1AA] font-inter text-base leading-[30px] tracking-[0.8px] mb-[20px]">
         Trusted by
       </p>
-      <div className="overflow-hidden max-w-[656px]">
+      <div className="overflow-hidden max-w-[70vw] xl:max-w-[656px]">
         <div className="flex space-x-8 opacity-60 animate-scroll-left">
           {/* 第一组 logos */}
           {[...Array(10)].map((_, i) => (
