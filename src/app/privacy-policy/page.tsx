@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-light text-[#111111] tracking-[0.64px] mb-[50px]">
-        <p className="font-normal leading-[24px] mb-[10px] text-[16px]">
+        <p className="font-normal leading-[24px] mb-[24px] text-[16px]">
           We at Midas ("LEAPMIND GROWTH PTE. LTD.", referred to here as "we",
           "us" or "our") respect and protect the privacy of those who explore
           our Services ("Users") and Users who sign up for and access our
@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
           "you" and "your").
         </p>
 
-        <p className="font-normal leading-[24px] mb-[10px] text-[16px]">
+        <p className="font-normal leading-[24px] mb-[24px] text-[16px]">
           We understand that you care about how information about you is used.
           This Privacy Policy describes how we collect, use, and share personal
           information when you explore, sign up for or access our "Services",
@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
           information about you is handled.
         </p>
 
-        <p className="font-normal leading-[24px] mb-[10px] text-[16px]">
+        <p className="font-normal leading-[24px] mb-[24px] text-[16px]">
           If you reside outside of the UK and the European Economic Area (the
           "EEA"), accessing and using our Services means that you accept this
           Privacy Policy and its terms, and you hereby consent that we will
@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
           under law.
         </p>
 
-        <p className="font-normal leading-[24px] mb-[10px] text-[16px]">
+        <p className="font-normal leading-[24px] mb-[24px] text-[16px]">
           Our goal is to help you empower businesses with innovative SaaS
           solutions that drive growth and efficiency. If you do not wish for
           your personal information to be collected, used, or disclosed as
@@ -74,31 +74,31 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal leading-[24px] text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="mb-[10px]">
+        <p className="mb-[24px]">
           We collect the following Personal Data, or through third parties:
           Cookies; Usage Data; email address; password.
         </p>
 
-        <p className="mb-[10px]">
+        <p className="mb-[24px]">
           Personal Data may be freely provided by you, or, in case of Usage
           Data, collected automatically when you explore, sign up for or access
           our "Services".
         </p>
 
-        <p className="mb-[10px]">
+        <p className="mb-[24px]">
           In cases where we specifically state that some Data is not mandatory,
           Users are free not to communicate this Data without consequences to
           the availability or the functioning of the Service.
         </p>
 
-        <p className="mb-[10px]">
+        <p className="mb-[24px]">
           Any use of Cookies – or of other tracking tools – by us or by the
           owners of third-party services used by our Site serves the purpose of
           providing the Service required by the User, in addition to any other
           purposes described in the present document, if available.
         </p>
 
-        <p className="mb-[10px]">{`Users are responsible for any third-party Personal information obtained, published or shared through our Site and confirm that they have the third party's consent to provide the Data to the Owner.`}</p>
+        <p className="mb-[24px]">{`Users are responsible for any third-party Personal information obtained, published or shared through our Site and confirm that they have the third party's consent to provide the Data to the Owner.`}</p>
 
         <p>
           This Privacy Policy covers how we treat personally identifiable
@@ -239,7 +239,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[20px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           Like many sites, we also use "cookie" technology to collect additional
           site usage data and to improve the Site and our Service. A cookie is a
           small data file that we transfer to your computer's hard disk. A
@@ -255,7 +255,7 @@ export default function PrivacyPolicy() {
           to improve the Site and our Service.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We may also automatically record certain information from your device
           by using various types of technology. This automatically collected
           information may include your IP address or other device address or ID,
@@ -339,7 +339,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[10px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We may use the Personal Information we obtain about you to:
         </p>
         <ul className="list-disc ml-6 mb-[10px] space-y-2">
@@ -398,7 +398,7 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           If you are located in the European Economic Area, we may process your
           Personal Information for the above purposes when:
         </p>
@@ -503,7 +503,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We are very concerned about safeguarding the confidentiality of your
           Personal Information. We employ administrative and electronic measures
           designed to appropriately protect your Personal Information against
@@ -518,7 +518,7 @@ export default function PrivacyPolicy() {
           security.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We will make any legally-required disclosures of any breach of the
           security, confidentiality, or integrity of your unencrypted
           electronically stored Personal Information to you via email or
@@ -586,7 +586,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           In certain jurisdictions you have the right to request access and
           receive information about the Personal Information we maintain about
           you, to update and correct inaccuracies in your Personal Information,
@@ -600,7 +600,7 @@ export default function PrivacyPolicy() {
           law.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           Where required by law, we obtain your consent for the processing of
           certain Personal Information collected by cookies or similar
           technologies, or used to send you direct marketing communications, or
@@ -628,7 +628,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           If you are a California resident, you have the rights set forth in
           this section. Please see the "Exercising Your Rights" section below
           for instructions regarding how to exercise these rights.
@@ -651,7 +651,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           You have the right to request certain information about our collection
           and use of your Personal Data over the past 12 months. In response, we
           will provide you with the following information:
@@ -710,7 +710,7 @@ export default function PrivacyPolicy() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           To exercise the rights described above, you or your Authorized Agent
           (defined below) must send us a request that (1) provides sufficient
           information to allow us to verify that you are the person about whom
@@ -723,7 +723,7 @@ export default function PrivacyPolicy() {
           need an account to submit a Valid Request.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We will work to confirm receipt within 15 days and respond to your
           Valid Request within 45 days of receipt. We will not charge you a fee
           for making a Valid Request unless your Valid Request(s) is excessive,
@@ -732,7 +732,7 @@ export default function PrivacyPolicy() {
           decision before completing your request.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           <span className="text-[#000000]">{`You may submit a Valid Request at `}</span>
           <a
             className="cursor-pointer text-blue-600 hover:underline"
@@ -841,7 +841,7 @@ export default function PrivacyPolicy() {
         <h2 className="leading-[58px]">How to Contact Us</h2>
       </div>
 
-      <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[120px]">
+      <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[20px]">
         <p className="leading-[24px]">
           <span className="text-[#000000]">{`We are responsible for the processing of your Personal Information. If you have any questions or comments regarding this Privacy Policy, or if you would like to exercise your rights to your Personal Information, you may contact us by emailing us at `}</span>
           <a

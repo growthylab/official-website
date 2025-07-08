@@ -24,7 +24,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           By accessing the site at https://midas.ing you are agreeing to be
           bound by these terms of service, all applicable laws, and regulations,
           and agree that you are responsible for compliance with any applicable
@@ -33,7 +33,7 @@ export default function TermOfService() {
           site are protected by applicable copyright and trademark law.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           Acceptance, when you visit, view, use, or access our site
           https://midas.ing and any applicable subdomains thereof, or any
           applications, mobile applications, functionalities, content,
@@ -65,7 +65,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           If you do not agree to these Terms of Use, you are not permitted to
           use the Platform. We can change these Terms of Use at any time and
           inform you through various means, including but not limited to,
@@ -90,26 +90,26 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           In these terms and conditions, certain definitions used shall have the
           meaning as specified on 3rd party advertising platforms. The following
           additional definitions shall also have the meanings set forth below.
         </p>
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           "3rd Party Advertising Networks" means any platform we are connected
           to run advertising such as Google, Facebook, Instagram, TikTok,
           Twitter and LinkedIn
         </p>
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           "Agreement" means these terms and conditions including all policies,
           procedures and/or guidelines which appear on the Site from time to
           time as well as all 3rd party advertising platforms Terms
         </p>
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           "Ads Content" means all information and files that you post on
           Facebook or Instagram using the Services.
         </p>
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           <span className="text-[#000000]">{`"Facebook Terms" means all terms and conditions including policies, procedures and/or guidelines on Facebook from time to time and currently published on `}</span>
           <a
             className="cursor-pointer text-blue-600 hover:underline"
@@ -118,7 +118,7 @@ export default function TermOfService() {
             https://www.facebook.com/business/direct_terms_ads_en.php
           </a>
         </p>
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           <span className="text-[#000000]">{`"Instagram Terms of Use" means any and all terms and conditions including policies, procedures and/or guidelines on Instagram from time to time and currently published on `}</span>
           <a
             className="cursor-pointer text-blue-600 hover:underline"
@@ -127,7 +127,7 @@ export default function TermOfService() {
             https://help.instagram.com/581066165581870
           </a>
         </p>
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           <span className="text-[#000000]">{`"LinkedIn ads Agreement" means all terms and conditions including policies, procedures and/or guidelines on LinkedIn from time to time and currently published on `}</span>
           <a
             className="cursor-pointer text-blue-600 hover:underline"
@@ -136,7 +136,7 @@ export default function TermOfService() {
             https://www.linkedin.com/legal/sas-terms
           </a>
         </p>
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           "Subscription" means the subscription service that entitles you to use
           to publish and manage ads on 3rd party advertising platforms
         </p>
@@ -151,7 +151,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           You may need to set up an account to use some of the features of the
           Platform. When you are setting up your account, you must give us
           accurate and complete information. This means that you cannot set up
@@ -164,7 +164,7 @@ export default function TermOfService() {
           person without our express, prior, written permission.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           You have complete responsibility for your account and everything that
           happens on your account. This means you need to be careful with your
           password. If you find out that someone is using your account without
@@ -174,7 +174,7 @@ export default function TermOfService() {
           losses caused by someone using your account without your permission.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           The Site is not intended for individuals under the age of 16. We do
           not target its Services or the Site to individuals under the age of
           16. We do not knowingly collect Personal Data (defined in Section 8
@@ -195,7 +195,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           You are responsible for all individuals that access Services through
           your Login Information ("Authorised Users"). You and your Authorised
           Users may use Services only for your own business, not to access
@@ -203,45 +203,45 @@ export default function TermOfService() {
           or copy any ideas, features, functions, or graphics of Services.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           You represent, warrant, and agree that you will not contribute any
           Content or User Submission (each of those terms is defined below) or
           otherwise use the Services or interact with the Services in a manner
           that:
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           1. Infringes or violates the intellectual property rights or any other
           rights of anyone else;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           2. Violates any law or regulation, including, without limitation, any
           applicable export control laws, privacy laws or any other purpose not
           reasonably intended;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           3. Is dangerous, harmful, fraudulent, deceptive, threatening,
           harassing, defamatory, obscene, or otherwise objectionable;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           4. Jeopardizes the security of your User ID, account or anyone else's
           (such as allowing someone else to log in to the Services as you);
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           5. Attempts, in any manner, to obtain the password, account, or other
           security information from any other user;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           6. Violates the security of any computer network, or cracks any
           passwords or security encryption codes;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           7. Runs Maillist, Listserv, any form of auto-responder or "spam" on
           the Services, or any processes that run or are activated while you are
           not logged into the Services, or that otherwise interfere with the
@@ -249,23 +249,23 @@ export default function TermOfService() {
           load on the Services' infrastructure);
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           8. "Crawls," "scrapes," or "spiders" any page, data, or portion of or
           relating to the Services or Content (through use of manual or
           automated means);
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           9. Copies or stores any significant portion of the Content; or
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           10. Decompiles, reverse engineers, or otherwise attempts to obtain the
           source code or underlying ideas or information of or relating to the
           Services.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           A violation of any of the foregoing is grounds for termination of your
           right to use or access the Services.
         </p>
@@ -278,7 +278,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           Anything you post, upload, share, store, or otherwise provide through
           the Services is your "User Submission". Some User Submissions may be
           viewable by other users. You are solely responsible for all User
@@ -287,7 +287,7 @@ export default function TermOfService() {
           and in compliance with all applicable laws, rules and regulations.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           These content standards (the "Content Standards") apply to any and all
           User Submissions and use of the Services. User Submissions must in
           their entirety comply with all applicable federal, state, local, and
@@ -296,37 +296,37 @@ export default function TermOfService() {
           provide through the Services any User Submissions that:
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           1. Contain any material that is obscene, indecent, abusive, offensive,
           lewd, lascivious, filthy, violent, harassing, inflammatory, or
           otherwise objectionable; or
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           2. Infringe any third party's copyrights or other rights (e.g.,
           trademark, privacy rights, etc.);
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           3. Contain sexually explicit content or pornography;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           4. Contain hateful, defamatory, or discriminatory content or incite
           hatred against any individual or group;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">5. Exploit minors;</p>
+        <p className="leading-[24px] mb-[24px]">5. Exploit minors;</p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           6. Depict unlawful acts or extreme violence;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           7. Depict animal cruelty or extreme violence towards animals;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           8. Violate the legal rights (including the rights of publicity and
           privacy) of others or contain any material that could give rise to any
           civil or criminal liability under applicable laws or regulations or
@@ -334,27 +334,27 @@ export default function TermOfService() {
           Policy.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           9. Promote fraudulent schemes, multi-level marketing (MLM) schemes,
           get rich quick schemes, online gaming and gambling, cash gifting, work
           from home businesses, or any other dubious money-making ventures;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           10. Be likely to deceive any person;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           11. Promote any illegal activity, or advocate, promote, or assist any
           unlawful act;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           12. Cause annoyance, inconvenience, or needless anxiety or be likely
           to upset, embarrass, alarm, or annoy any other person;
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           13. Impersonate any person, or misrepresent your identity or
           affiliation with any person or organization; or
         </p>
@@ -367,7 +367,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           The fee for the Subscription (the "Subscription Fee") shall be as
           quoted on our site, which can be reviewed at{" "}
           <span className="text-blue-600">https://midas.ing</span>. All prices
@@ -376,7 +376,7 @@ export default function TermOfService() {
           time of signing up for Membership.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We reserve the right to modify the Subscription Fee and the prices for
           other Services from time to time or to implement any new pricing
           policies (if any) in its sole discretion to cover any increase in our
@@ -387,7 +387,7 @@ export default function TermOfService() {
           other Service(s).
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           If you sign up for a Trial Period, we will require you to provide it
           with a valid credit card or other payment method and start charging
           you automatically on the first day after the Trial Period is over. All
@@ -414,7 +414,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           You agree that publishing ads on Facebook or Instagram through us is
           entirely your responsibility and you must evaluate and bear all risks
           and losses, and that you will bear all risks associated with doing so.
@@ -427,14 +427,14 @@ export default function TermOfService() {
           Content without any advance notice.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We assume no responsibility or liability for any errors, costs, loss,
           disclosure of or related to Ads Content or other information or data
           not being transferred to or published on 3rd party advertising
           platforms or caused by any technical or manual reason.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           <span className="font-bold uppercase">
             YOU USE ALL SERVICES AT YOUR OWN RISK. TO THE GREATEST EXTENT
             PERMITTED BY APPLICABLE LAW, WE DISCLAIM ANY WARRANTY,
@@ -488,14 +488,14 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           When you visit the Site you provide us with information as may be
           collected as you interact with the Site and/or is entitled, in its
           sole discretion, to save and freely dispose over any such information
           (including but not limited to all Ads Content).
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           Submitting your name and e-mail address as well as any other requested
           personal data or any other personally identifiable information
           (collectively, "Personal Data") is a condition to using the Services.
@@ -523,7 +523,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           The Children's Online Privacy Protection Act ("COPPA") requires that
           online service providers obtain parental consent before they knowingly
           collect personally identifiable information online from children who
@@ -561,12 +561,12 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           These services may contain links to third-party web sites or services
           that are not owned or controlled by us.
         </p>
 
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           We have no control over, and assumes no responsibility for, the
           content, privacy policies, or practices of any third-party web sites
           or services. You further acknowledge and agree that we shall not be
@@ -587,7 +587,7 @@ export default function TermOfService() {
       </div>
 
       <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[50px]">
-        <p className="leading-[24px] mb-[10px]">
+        <p className="leading-[24px] mb-[24px]">
           The Services that are free of charge, during the Trial Period, may be
           terminated by you at any time and without cause. You may at any time
           and without cause terminate your Subscription and we will not charge
@@ -619,8 +619,8 @@ export default function TermOfService() {
         <h2 className="leading-[58px]">Severability</h2>
       </div>
 
-      <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[120px]">
-        <p className="leading-[24px] mb-[10px]">
+      <div className="font-['Inter'] font-normal text-[#000000] text-[16px] tracking-[0.64px] mb-[20px]">
+        <p className="leading-[24px] mb-[24px]">
           In the event that any provision of these terms and conditions is
           determined by a court of competent jurisdiction to be invalid or
           otherwise unenforceable, such provision (or part thereof) shall be
