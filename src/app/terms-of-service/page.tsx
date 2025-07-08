@@ -203,45 +203,45 @@ export default function TermOfService() {
           or copy any ideas, features, functions, or graphics of Services.
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           You represent, warrant, and agree that you will not contribute any
           Content or User Submission (each of those terms is defined below) or
           otherwise use the Services or interact with the Services in a manner
           that:
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           1. Infringes or violates the intellectual property rights or any other
           rights of anyone else;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           2. Violates any law or regulation, including, without limitation, any
           applicable export control laws, privacy laws or any other purpose not
           reasonably intended;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           3. Is dangerous, harmful, fraudulent, deceptive, threatening,
           harassing, defamatory, obscene, or otherwise objectionable;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           4. Jeopardizes the security of your User ID, account or anyone else's
           (such as allowing someone else to log in to the Services as you);
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           5. Attempts, in any manner, to obtain the password, account, or other
           security information from any other user;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           6. Violates the security of any computer network, or cracks any
           passwords or security encryption codes;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           7. Runs Maillist, Listserv, any form of auto-responder or "spam" on
           the Services, or any processes that run or are activated while you are
           not logged into the Services, or that otherwise interfere with the
@@ -249,23 +249,23 @@ export default function TermOfService() {
           load on the Services' infrastructure);
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           8. "Crawls," "scrapes," or "spiders" any page, data, or portion of or
           relating to the Services or Content (through use of manual or
           automated means);
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           9. Copies or stores any significant portion of the Content; or
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           10. Decompiles, reverse engineers, or otherwise attempts to obtain the
           source code or underlying ideas or information of or relating to the
           Services.
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           A violation of any of the foregoing is grounds for termination of your
           right to use or access the Services.
         </p>
@@ -287,7 +287,7 @@ export default function TermOfService() {
           and in compliance with all applicable laws, rules and regulations.
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           These content standards (the "Content Standards") apply to any and all
           User Submissions and use of the Services. User Submissions must in
           their entirety comply with all applicable federal, state, local, and
@@ -296,37 +296,37 @@ export default function TermOfService() {
           provide through the Services any User Submissions that:
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           1. Contain any material that is obscene, indecent, abusive, offensive,
           lewd, lascivious, filthy, violent, harassing, inflammatory, or
           otherwise objectionable; or
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           2. Infringe any third party's copyrights or other rights (e.g.,
           trademark, privacy rights, etc.);
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           3. Contain sexually explicit content or pornography;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           4. Contain hateful, defamatory, or discriminatory content or incite
           hatred against any individual or group;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">5. Exploit minors;</p>
+        <p className="leading-[24px]">5. Exploit minors;</p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           6. Depict unlawful acts or extreme violence;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           7. Depict animal cruelty or extreme violence towards animals;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           8. Violate the legal rights (including the rights of publicity and
           privacy) of others or contain any material that could give rise to any
           civil or criminal liability under applicable laws or regulations or
@@ -334,27 +334,25 @@ export default function TermOfService() {
           Policy.
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           9. Promote fraudulent schemes, multi-level marketing (MLM) schemes,
           get rich quick schemes, online gaming and gambling, cash gifting, work
           from home businesses, or any other dubious money-making ventures;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
-          10. Be likely to deceive any person;
-        </p>
+        <p className="leading-[24px]">10. Be likely to deceive any person;</p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           11. Promote any illegal activity, or advocate, promote, or assist any
           unlawful act;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           12. Cause annoyance, inconvenience, or needless anxiety or be likely
           to upset, embarrass, alarm, or annoy any other person;
         </p>
 
-        <p className="leading-[24px] mb-[24px]">
+        <p className="leading-[24px]">
           13. Impersonate any person, or misrepresent your identity or
           affiliation with any person or organization; or
         </p>
