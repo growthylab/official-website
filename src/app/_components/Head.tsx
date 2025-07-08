@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { Logo } from "@/components/Logo";
 
 export const Header = () => {
   const handleLoginClick = () => {
@@ -22,13 +22,7 @@ export const Header = () => {
         <div className="flex justify-between items-center h-[100px]">
           {/* Logo */}
           <div className="flex items-center">
-            <Image
-              src="/title.svg"
-              alt="MIDAS"
-              width={115}
-              height={27}
-              className="mr-2"
-            />
+            <Logo width={115} height={27} className="mr-2" />
 
             {/* <div className="text-2xl font-semibold text-black">MIDAS</div> */}
           </div>

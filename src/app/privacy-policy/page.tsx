@@ -1,6 +1,6 @@
 export default function PrivacyPolicy() {
   return (
-    <div className="leading-[0] not-italic relative w-full max-w-[1200px] mx-auto px-4 text-left pt-[100px]">
+    <div className="leading-[0] not-italic relative w-full max-w-custom mx-auto text-left pt-[100px]">
       <div className="font-['Inter'] font-semibold text-[#111111] text-[64px] tracking-[1.28px] mb-6">
         <h1 className="leading-[84px] whitespace-pre">Privacy Policy</h1>
       </div>
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
         </h2>
       </div>
 
-      <div className="font-['Inter'] font-semibold text-[#111111] text-[38px] tracking-[0.76px] mb-6">
+      <div className="font-['Inter'] font-semibold text-[#111111] text-[38px] tracking-[0.76px] mb-6 mt-7">
         <h2 className="leading-[58px]">Types of Data collected</h2>
       </div>
 
