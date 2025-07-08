@@ -1,7 +1,12 @@
+"use client";
 import { Logo } from "@/components/Logo";
+import { useIsHomePage } from "@/hooks/useIsHomePage";
+
 export const Footer = () => {
+  const isHomePage = useIsHomePage();
+  const bgColor = isHomePage ? "bg-white/50" : "bg-bgGray";
   return (
-    <footer className="bg-white/50">
+    <footer className={bgColor}>
       <div className="md:max-w-custom mx-4 xl:mx-auto py-16">
         <div className="flex flex-col lg:flex-row lg:justify-between">
           <div className="">

@@ -1,6 +1,6 @@
 export default function PrivacyPolicy() {
   return (
-    <div className="leading-[0] not-italic relative w-full adaptive-margin text-left pt-[100px]">
+    <div className="leading-[0] not-italic relative w-full adaptive-margin text-left py-[100px]">
       <div className="font-['Inter'] font-semibold text-[#111111] text-[64px] tracking-[1.28px] mb-6">
         <h1 className="leading-[84px] whitespace-pre">Privacy Policy</h1>
       </div>
